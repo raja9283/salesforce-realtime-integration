@@ -23,7 +23,7 @@ The project currently handles **Contacts**, **Leads**, and **Opportunities**. It
 2. **Create a Lambda Function**: Create a Lambda function and attach the S3 trigger to it.
 3. **Add Layers to Lambda**:
    - Include the `simple-salesforce` layer from the repository.
-   - Attach the required AWS built-in layer for Python dependencies.
+   - Attach the AWSSDKPandas-Python312 built-in layer for Python dependencies.
 
 ## Setting Up Salesforce
 
@@ -53,7 +53,7 @@ In Salesforce, create connected app credentials to allow API access. Update the 
 - Include this layer in your Lambda function for Salesforce integration.
 
 ### 2. AWS Built-in Layer
-- ARN: `arn:aws:lambda:<region>:<account-id>:layer:<layer-name>:<version-number>`
+- ARN: `arn:aws:lambda:ap-south-1:336392948345:layer:AWSSDKPandas-Python312:13`
 
 
 ## Sample Data
