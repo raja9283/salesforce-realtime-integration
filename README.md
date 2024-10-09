@@ -42,7 +42,7 @@ In Salesforce, create connected app credentials to allow API access. Update the 
 ## Repository Contents
 
 - **`lambda_function.py`**: The core Lambda function code.
-- **`layers/simple_salesforce/`**: Pre-packaged Lambda layer for the `simple-salesforce` library.
+- **`layers/simple_salesforce.zip`**: Pre-packaged Lambda layer for the `simple-salesforce` library.
 - **`sample_data/`**: Sample input files for new and updated Salesforce records.
 - **`README.md`**: Documentation file.
 
