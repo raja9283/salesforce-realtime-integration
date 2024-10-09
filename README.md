@@ -9,7 +9,7 @@ This project demonstrates how to send data to Salesforce in real-time using AWS 
 - **Customizability**: The solution can be extended to include additional features like filtering, data type transformations, and conditional updates based on business logic.
 - **Cost Efficiency**: This approach is more cost-effective compared to AWS AppFlow, as it reduces dependency on managed services and utilizes serverless functions, minimizing cost for low to moderate data volumes.
 
-The project currently handles **Contacts**, **Leads**, and **Opportunities**. It can create new records or update existing ones based on the input data. The implementation uses the `simple-salesforce` package to interact with the Salesforce API.
+The project currently handles Salesforce data for **Contacts**, **Leads**, and **Opportunities**. Based on the input data, it can create new records or update existing ones. The implementation uses the `simple-salesforce` package to interact with the Salesforce API.
 
 ## Architecture Overview
 
