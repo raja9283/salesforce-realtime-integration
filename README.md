@@ -1,7 +1,13 @@
 # Salesforce Real-time Integration using AWS S3 and Lambda
 
 ## Project Overview
+
 This project demonstrates how to send data to Salesforce in real-time using AWS S3 and Lambda. The use case for this approach arises from a limitation in AWS AppFlow, which, while capable of integrating Salesforce with AWS services, does not support event-driven triggers when Salesforce is set as the destination. To overcome this, we utilize S3 events and a Lambda function to push data into Salesforce.
+
+### Key Benefits:
+- **Real-time Data Integration**: Sends updates to Salesforce instantly based on S3 events.
+- **Customizability**: The solution can be extended to include additional features like filtering, data type transformations, and conditional updates based on business logic.
+- **Cost Efficiency**: This approach is more cost-effective compared to AWS AppFlow, as it reduces dependency on managed services and utilizes serverless functions, minimizing cost for low to moderate data volumes.
 
 The project currently handles **Contacts**, **Leads**, and **Opportunities**. It can create new records or update existing ones based on the input data. The implementation uses the `simple-salesforce` package to interact with the Salesforce API.
 
